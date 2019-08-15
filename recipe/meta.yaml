@@ -1,5 +1,5 @@
 {% set name = "skinnywms" %}
-{% set version = "0.1.0" %}
+{% set version = "0.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -10,7 +10,7 @@ source:
   sha256: 4796ebd98fe996b761ff197f357943f9a4e377402b414d6cf95c043bf54f3ccd
 
 build:
-  number: 0
+  number: 1UPdate buil
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
   entry_points:
