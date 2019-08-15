@@ -30,8 +30,7 @@ requirements:
 test:
   imports:
     - skinnywms
-  commands:
-    - skinny-wms
+  
 
 about:
   home: http://github.com/ecmwf/skinnywms
