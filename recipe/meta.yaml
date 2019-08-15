@@ -24,12 +24,14 @@ requirements:
   run:
     - python >3.5
     - flask
-    - pip
     - magics
+    - xarray >=0.12.0
 
 test:
   imports:
     - skinnywms
+  commands:
+    - skinny-wms
 
 about:
   home: http://github.com/ecmwf/skinnywms
