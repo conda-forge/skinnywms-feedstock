@@ -10,7 +10,7 @@ source:
   sha256: 4796ebd98fe996b761ff197f357943f9a4e377402b414d6cf95c043bf54f3ccd
 
 build:
-  number: 3
+  number: 4
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
   entry_points:
@@ -20,6 +20,7 @@ requirements:
   host:
     - python >3.5
     - pip
+    - flask
     - magics
   run:
     - python >3.5
@@ -30,6 +31,8 @@ requirements:
 test:
   imports:
     - skinnywms
+  commands:
+    - skinny-wms
 
 about:
   home: http://github.com/ecmwf/skinnywms
