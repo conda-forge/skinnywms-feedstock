@@ -1,5 +1,5 @@
 {% set name = "skinnywms" %}
-{% set version = "0.1.17" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3f40e91b9545ecb5e2427bce43a0757b28bf62639f9611383246087b72f53812
+  sha256: cdf098f8d43f86ce20bdf62ea4b098a81f7be56db8eb9501c7416ae43885bd7b
 
 build:
   number: 0
