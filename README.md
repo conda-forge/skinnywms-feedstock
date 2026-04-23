@@ -5,9 +5,13 @@ Home: http://github.com/ecmwf/skinnywms
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/skinnywms-feedstock/blob/master/LICENSE.txt)
 
 Summary: Simple WMSserver to visualise NetCDF and GRIB data
+
+Development: https://github.com/ecmwf/skinnywms
+
+Documentation: http://github.com/ecmwf/skinnywms
 
 Visualising meteorological and climate data
 
